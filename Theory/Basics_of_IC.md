@@ -33,7 +33,15 @@ So far from the discussion, it is safe to infer that scaling down the transistor
 
 Let's take a simple example of a CMOS-based inverter. The illustration(*Fig1.1*) below shows the structre of a CMOS inverter.
 
-![CMOS Inverter](/images/theory/cmos_inv.png)
+![Fig1.1 : CMOS Inverter](/images/theory/cmos_inv.png)
+
+This simple cmos design represents a logical NOT-gate in digital design that simply provides an inverted output, i.e a logic 1 as an output when logic 0 is given as an input and vice-versa. This fundamental design can be realised as an integrated circuit as shown below in *Fig1.2*. 
+
+![Fig1.2 : IC basic structure](/images/theory/basic_ic.png)
+
+It is evident that the structure seems to look quite intimidating at first glance. The key insights that must be noted from the *Fig1.2* are as under :
+
+- 
 
 
 
