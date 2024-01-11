@@ -1,9 +1,11 @@
 # Basics of Integrated-Circuits(IC) :
 
-This first section of the course serves as an introduction to VLSI and the world of semiconductor ICs' that surrounds us in the form of electronic devices. 
+This first section of the course serves as an introduction to VLSI and the world of semiconductor ICs' that surrounds us in the form of electronic devices. This section is divided into **two** sub-sections where the [former sub-section](#sub1) discusses about the background of VLSI domain and it's importance; the [latter sub-section](#sub2) describes the 
 
+<a id='sub1'> </a>
+## Sub-Section I : Background of VLSI-Design
 
-## VLSI : A Historic Perspective
+### VLSI : A Historic Perspective
 
 Prior to the inception of ICs and the domain of VLSI, the earliest of the devices were engineered and designed by the interconnection of numerous discrete active* (diode, transistor) and passive* (resistor, capacitor, inductor) components.
 
@@ -23,7 +25,15 @@ In response to the surge in the demand for ICs' due to the quest for higher comp
 
 The incrementation of packaging density for every new generation of a chip is due to the advancement in the technology node of transistors used in the pacakaging of the chip. Technology node or simply Technology, in this context, refers to the distance between the source and the drain that essentially forms the conducting channel in the transistor for flow of current. Advanced technology nodes have a smaller channel length that makes it possible to shrink the tranistor size and contribute to a higher number of transistor count onto a chip essentially increasing the packaging density. The incorporation of advancement of technology nodes improves it's **performance metrics** such as *speed*, *power dissipation*, *cost* etc. This process of shrinking the transistors is termed as **Scaling Down** of the transistors.
 
-## Agenda 
+### Agenda 
 
 So far from the discussion, it is safe to infer that scaling down the transistor technology is the future of computation. But this process introduces various challanges that increases the complexity of ICs' and impedes the designing process. The agenda of this course as mentioned by Professor Sneh Saurabh is to explore and understand these challanges and practically visualise ways to navigate through these obstacles faced by **VLSI engineers** through this road from *RTL-to-GDS*.
+
+### Structure of Intigrated Circuits :
+
+Let's take a simple example of a CMOS-based inverter. The illustration(*Fig1.1*) below shows the structre of a CMOS inverter.
+
+![CMOS Inverter](/images/theory/cmos_inv.png)
+
+
 
