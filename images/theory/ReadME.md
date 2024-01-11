@@ -1,1 +1,1 @@
-All the images used in [theory](main/theory) branch here.
+All the images used in [Theory](RTL-to-GDS2-flow/main/theory) branch here.
