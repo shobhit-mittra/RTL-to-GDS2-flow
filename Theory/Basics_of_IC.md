@@ -20,3 +20,6 @@ One of the standard methodology to realise transistors on a silicon chip is Phot
 > 
 
 In response to the surge in the demand for ICs' due to the quest for higher computation and data storage, the number of transistors packaged on a single chip also increased. This led to the increase in the scale of integration to the point where millions of transistors are integrated on a single chip. This advancement paved way for the domain of Very-Large-Scale-Integration (VLSI). 
+
+The incrementation of packaging density for every new generation of a chip is due to the advancement in the technology node of transistors used in the pacakaging of the chip. Technology node or simply Technology, in this context, refers to the distance between the source and the drain that essentially forms the conducting channel in the transistor for flow of current. Advanced technology nodes have a smaller channel length that makes it possible to shrink the tranistor size and contribute to a higher number of transistor count onto a chip essentially increasing the packaging density. 
+
