@@ -29,7 +29,7 @@ The incrementation of packaging density for every new generation of a chip is du
 
 So far from the discussion, it is safe to infer that scaling down the transistor technology is the future of computation. But this process introduces various challanges that increases the complexity of ICs' and impedes the designing process. The agenda of this course as mentioned by Professor Sneh Saurabh is to explore and understand these challanges and practically visualise ways to navigate through these obstacles faced by **VLSI engineers** through this road from *RTL-to-GDS*.
 
-### Structure of Intigrated Circuits :
+### Structure of Integrated Circuits :
 
 Let's take a simple example of a CMOS-based inverter. The illustration(*Fig1.1*) below shows the structre of a CMOS inverter.
 
@@ -41,7 +41,12 @@ This simple cmos design represents a logical NOT-gate in digital design that sim
 
 It is evident that the structure seems to look quite intimidating at first glance. The key insights that must be noted from the *Fig1.2* are as under :
 
-- 
+- An IC comprises of multiple layers (In this case 2 metal layers). Layers such as : Diffusion, Implant, metal etc.
+- Bottom Layer : Devices : This region consists of diodes, tranistors that constitute the device portion of the IC
+- Above Devices : Interconnect layers of metal separated by insulators (Typically 6-10 metal layers in a typical IC)
+- The Via are used to estabilish connection between metal layers.
+
+
 
 
 
