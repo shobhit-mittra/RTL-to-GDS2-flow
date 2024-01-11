@@ -12,5 +12,11 @@ Prior to the inception of ICs and the domain of VLSI, the earliest of the device
 
 The issue with such method of creating devices is the nexus of these discrete components becomes expensive, time-consuming and unreliable. In order to counter this issue, a technology was developed in the 1960s' namely : 'Integrated Circuit(IC)'. 
 
-ICs' are monolithic silicon chip that contains several components on the chip. Monolithic in this context refers to the material composition for the base chip is homogenous i.e Silicon and only a single crystal is used. The transistors are realised on this single crystal of silicon itself rather than combining discrete components together. 
+ICs' are monolithic silicon chip that contains several components on the chip. Monolithic in this context refers to the material composition for the base chip is homogenous i.e Silicon and only a single crystal is used. The transistors are realised on this single crystal of silicon itself rather than combining discrete components together.
 
+One of the standard methodology to realise transistors on a silicon chip is Photolithography. 
+
+> [!IMPORTANT]
+> 
+
+In response to the surge in the demand for ICs' due to the quest for higher computation and data storage, the number of transistors packaged on a single chip also increased. This led to the increase in the scale of integration to the point where millions of transistors are integrated on a single chip. This advancement paved way for the domain of Very-Large-Scale-Integration (VLSI). 
