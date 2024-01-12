@@ -18,8 +18,8 @@ ICs' are monolithic silicon chip that contains several components on the chip. M
 
 One of the standard methodology to realise transistors on a silicon chip is Photolithography. 
 
-> [!IMPORTANT]
-> TBD
+> [!NOTE]
+> Photolithography is discussed further ahead 
 
 In response to the surge in the demand for ICs' due to the quest for higher computation and data storage, the number of transistors packaged on a single chip also increased. This led to the increase in the scale of integration to the point where millions of transistors are integrated on a single chip. This advancement paved way for the domain of **Very-Large-Scale-Integration (VLSI)**. 
 
@@ -46,7 +46,28 @@ It is evident that the structure seems to look quite intimidating at first glanc
 - Above Devices : Interconnect layers of metal separated by insulators (Typically 6-10 metal layers in a typical IC)
 - The Via are used to estabilish connection between metal layers.
 
+A common question that may arise after the discussion of structure of IC is the need for having multiple layers, Why can't the structure be completely ?
+
+To answer this lets examine a simple scenario described as under : 
+
+![Fig1.3](/images/theory/ic_structure1.png)
+
+Imagine a square region that has four components (A1,A2,B1,B2) at it's perimeter. The objective here is to connect A1,A2 and B1,B2 using two interconnects. The criteria to do this is postulated below :
+
+- The interconnects must not go outside the square region described
+- The interconnects must be in the same plane as the one containing A1,A2,B1,B2
+
+Taking these conditions in consideration, is it possible to connect A1 to A2 and B1 to B2 without *shorting* the interconnects? 
+
+![Fig1.4](/images/theory/ic_structure2.png)
 
 
+It isn't possible to avoid shorting if the constraints mentioned are followed. What about relieving the **second** constraint? The constraint that forces the interconnects to be in the same plane.
 
+![Fig1.5](/images/theory/ic_structure3.png)
+
+The dotted line from A1 to A2, in the illustration, represents a connection using a metal layer (layer1) that resides in a different plane compared to metal layer2. Hence, multiple metal layers are necessary to estabilish connection between components that would otherwise short if implemented on a single layer.
+These layers are defined using masks and fabricated using Photolithography.
+
+### Photolithography : A Brief Insight
 
