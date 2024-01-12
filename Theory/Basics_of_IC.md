@@ -61,7 +61,6 @@ Taking these conditions in consideration, is it possible to connect A1 to A2 and
 
 ![Fig1.4](/images/theory/ic_structure2.png)
 
-
 It isn't possible to avoid shorting if the constraints mentioned are followed. What about relieving the **second** constraint? The constraint that forces the interconnects to be in the same plane.
 
 ![Fig1.5](/images/theory/ic_structure3.png)
@@ -70,4 +69,10 @@ The dotted line from A1 to A2, in the illustration, represents a connection usin
 These layers are defined using masks and fabricated using Photolithography.
 
 ### Photolithography : A Brief Insight
+
+To put it in a simple way, it is the process of transferring geometric shapes that are defined on a mask to the surface of silicon wafer. These shapes define the layout of components, interconnects, and circuits, enabling the miniaturization, customization, and integration of electronic components on a chip. The illustration below shows the process in one-shot. 
+
+![Fig1.6 : Photolithography](/images/theory/photolithography.png)
+
+
 
