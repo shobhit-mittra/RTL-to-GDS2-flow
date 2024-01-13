@@ -134,7 +134,7 @@ This is further classified into :
 1. Application Specific Integrated Circuits (ASICs)
 2. General Purpose Integrated Circuits 
 
-To briefly explain the difference between the two :
+To briefly explain the differences between the two :
 
 Some properties of ASIC :
 - Chip designed to perform as a particular end system
@@ -153,7 +153,17 @@ Some properties of General Purpose Integrated Circuits :
 This is further classified into :
 
 
+1. Full-Custom Design
+2. Standard-Cell Based Design (Semi-Custom)
+3. Gate Array Based Design
+4. Field-Programmable Gate Array (FPGA)
 
+The table below briefly explain the differences among the four :
+
+
+| Parameters | Full-Custom Design | Semi-Custom Design | Gate-Array Design | FPGA |
+| :--------: | :----------------: | :----------------: | :---------------: | :--: |
+| Description |
 
  
 
