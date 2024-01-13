@@ -115,13 +115,33 @@ The semiconductor ecosystem sustains majorly via three types of companies that a
 - Designing + Fabrication done in same company
 - Production is more cost-efficient due to control over all steps in the entire flow
 - Eg : Intel, Samsung Electronics
-
-
-
+</br>
 
 <a id='sub2'> </a>
-## Sub-Section II : 
+## Sub-Section II : Basic Concepts of Integrated Circuits 
 
+### Types of Integrated Circuits :
+
+ICs can be primarily classified using the catagories as under :
+
+- [On the Basis of Application](#app)
+- [On the Basis of Design Style](#design_style)
+
+<a id='app'></a>
+#### Application-Based
+This is further classified into : 
+
+1. Application Specific Integrated Circuits (ASICs)
+2. General Purpose Integrated Circuits 
+
+To briefly explain the difference between the two :
+
+Some properties of ASIC :
+- Chip designed to perform as a particular end system
+- They are non-programmable and hence fail to deversify the range of their usage
+- Their volume of production is relatively limited
+- Example : IC for Camera, 
+ 
 
 
 
