@@ -75,7 +75,7 @@ To put it in a simple way, it is the process of transferring geometric shapes th
 ![Fig1.6 : Photolithography](/images/theory/photolithography.png)
 
 
-### Designing vs Fabrication : 
+### Semiconductor Ecosystem : Designing vs Fabrication : 
 
 Every VLSI-design flow can be broadly divided into these two aspects namely, Design and Fabrication. These are inter-dependant processes and are quite different from one another. 
 
@@ -85,12 +85,22 @@ Every VLSI-design flow can be broadly divided into these two aspects namely, Des
 
 - Fabrication refers to using the parameters defined in the design phase and use them to realise the actual physical circuit in the form of IC. Hence, it's the implementation phase that follows the design phase.
 
+Although Designing and Fabrication are done separately but they are highly inter-dependant on eachother. During designing it is important to take into consideration the properties such as delay, area, etc. for the technology that will be used to realise the design during fabrication. Hence, it is crucial that there exists a medium of exchange of intel between these two faction. The illustration below shows the ecosystem. 
+
+![Fig1.8 : Semicon Ecosystem](/images/theory/semicon_ecosystem.png)
+
+The information is shared using :
+
+- PDK(Process Design Kit) that is provided by the foundry to the design team. PDK contains crucial information about the technology that'll be used for fabrication and Design Rule Checks (DRC) that must be taken care of while designing.
+
+- Design (Layout) is provided by the design team to the foundry in the form of a GDSII file (Graphic Design System Information Interchange) for fabrication.
+
 
 ### Semiconductor Industry : Business Model
 
 The semiconductor ecosystem sustains majorly via three types of companies that are mentioned below :
 
-![Fig1.8 : Semicon Business Model](/images/theory/semicon_business_model.png)
+![Fig1.9 : Semicon Business Model](/images/theory/semicon_business_model.png)
 
 1. Fabless Design Companies :
 - Only into designing , fabrication is outsourced
