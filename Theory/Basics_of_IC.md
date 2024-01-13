@@ -140,7 +140,21 @@ Some properties of ASIC :
 - Chip designed to perform as a particular end system
 - They are non-programmable and hence fail to deversify the range of their usage
 - Their volume of production is relatively limited
-- Example : IC for Camera, 
+- Example : IC for Camera, IC for graphic cards (AMD Radeon - NVIDIA graphic cards) etc.
+
+Some properties of General Purpose Integrated Circuits :
+- Chip designed to perform as a wide-range end system
+- They are programmable via software and hence deversify the range of their usage
+- Their volume of production is relatively larger
+- Example : Microprocessors, Memories, FPGA
+
+<a id='design_style'></a>
+#### Design-Style-Based
+This is further classified into :
+
+
+
+
  
 
 
