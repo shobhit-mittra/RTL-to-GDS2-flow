@@ -75,6 +75,47 @@ To put it in a simple way, it is the process of transferring geometric shapes th
 ![Fig1.6 : Photolithography](/images/theory/photolithography.png)
 
 
+### Designing vs Fabrication : 
+
+Every VLSI-design flow can be broadly divided into these two aspects namely, Design and Fabrication. These are inter-dependant processes and are quite different from one another. 
+
+![Fig1.7 : Designing vs Fabrication](/images/theory/designVfabrication.png)
+
+- Designing involves determining the parameters and properties for a certian component in a circuit to achieve the desired functionality. Simply put, it's the planning phase to develop a desired circuit.
+
+- Fabrication refers to using the parameters defined in the design phase and use them to realise the actual physical circuit in the form of IC. Hence, it's the implementation phase that follows the design phase.
+
+
+### Semiconductor Industry : Business Model
+
+The semiconductor ecosystem sustains majorly via three types of companies that are mentioned below :
+
+![Fig1.8 : Semicon Business Model](/images/theory/semicon_business_model.png)
+
+1. Fabless Design Companies :
+- Only into designing , fabrication is outsourced
+- Does not require to setup expenisve foundries
+- Eg : NVIDIA, Qualcomm, Broadcomm
+
+2. Merchant Foundries :
+- Only involved in fabrication for fabless companies
+- Eg : TSMC, UMC, GF etc.
+
+3. Integrated Device Manufacturers :
+- Designing + Fabrication done in same company
+- Production is more cost-efficient due to control over all steps in the entire flow
+- Eg : Intel, Samsung Electronics
+
+
+
+
+<a id='sub2'> </a>
+## Sub-Section II : 
+
+
+
+
+
 
 
 
