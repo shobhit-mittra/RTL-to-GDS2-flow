@@ -1,6 +1,6 @@
 # Basics of Integrated-Circuits(IC) :
 
-This first section of the course serves as an introduction to VLSI and the world of semiconductor ICs' that surrounds us in the form of electronic devices. This section is divided into **two** sub-sections where the [former sub-section](#sub1) discusses about the background of VLSI domain and it's importance; the [latter sub-section](#sub2) describes the 
+This first section of the course serves as an introduction to VLSI and the world of semiconductor ICs' that surrounds us in the form of electronic devices. This section is divided into **two** sub-sections where the [former sub-section](#sub1) discusses about the background of VLSI domain and it's importance; the [latter sub-section](#sub2) describes the basics of ICs in brief.
 
 <a id='sub1'> </a>
 ## Sub-Section I : Background of VLSI-Design
