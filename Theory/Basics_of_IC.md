@@ -163,9 +163,17 @@ The table below briefly explain the differences among the four :
 
 | Parameters | Full-Custom Design | Semi-Custom Design | Gate-Array Design | FPGA |
 | :--------: | :----------------: | :----------------: | :---------------: | :--: |
-| Description |
+| Description | Design Specfic Customisation at the transistor level | Pre-designed standard cells/macros and the interconnections b/w these pre-designed cells are design specific | Transistor placement predefined on wafer, interconnects are design-specific | Programmable logic blocks and interconnects|
+| Design Effort | Maximum | High | Lower | Lower |
+| Custom Mask Layers | All | All | Top few layers | None |
+| Performance, Power, Area | Best | Very Good | Comparitively Inferior |Comparitively Inferior | 
 
- 
+
+> [!NOTE]
+> The major focus for this course would be towards Standard-Cell based Design or Semi-Custom Design
+
+
+
 
 
 
