@@ -5,4 +5,7 @@ The repositry is organised into 2 segments namely, Theory and Tutorial(Hands-on-
 - [Theory](Theory) : Check for the [README.md](Theory/README.md) in the theory directory for the index of how the theory is organized.
 - [Tutorials](Tutorials.md)
 
+> [!IMPORTANT]
+> Most of the images / snapshots used in the explanation in the [Theory](Theory) segment all belong to Professor Sneh Saurabh and his presentation.
+
 
