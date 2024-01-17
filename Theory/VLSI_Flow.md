@@ -20,3 +20,5 @@ The image above shows a simplified view of the VLSI-flow including fabrication. 
 - RTL-to-GDS flow involves taking the RTL through various stages of logical and physical design to finally reach the GDS file
 - Post-GDS flow (GDS to Chip) : prepares mask for the obtained GDS and perform fabrication/testing/packaging
 
+## Abstraction :
+
